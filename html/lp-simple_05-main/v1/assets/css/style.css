@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import "https://unpkg.com/ress/dist/ress.min.css";
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #000;
+  text-align: center;
+  line-height: 1;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 1.8em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+header,
+footer {
+  background: #db8607;
+  padding: 20px;
+}
+
+main {
+  color: #db8607;
+  padding: 80px 0 100px;
+}
+
+section {
+  width: 900px;
+  margin: auto;
+}
+
+section + section {
+  margin-top: 80px;
+}
+
+section p {
+  width: 80%;
+  margin: auto;
+  line-height: 3;
+}
+
+h1 {
+  letter-spacing: 0.5em;
+  margin-right: -0.5em;
+  font-size: 50px;
+  margin-bottom: 1em;
+  font-family: "Impact", sans-serif;
+}
+
+h2 {
+  letter-spacing: 0.2em;
+  margin-right: -0.5em;
+  font-size: 40px;
+  margin-bottom: 0.8em;
+  font-family: "Impact", sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 3em;
+}
+
+p {
+  font-weight: bold;
+  letter-spacing: 0.08em;
+}
+
+.main-page {
+  width: 700px;
+  height: 500px;
+  border: 4px solid #ffaa2a;
+  border-radius: 10px;
+}
+
+
+#first-view {
+  position: relative;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  margin: 60px auto 0;
+}
+
+.btn_share {
+  display: block;
+  background: #db8607;
+  border: 4px solid #000;
+  border-radius: 15px;
+  color: #000;
+  width: 48%;
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn_share .fab {
+  font-size: 30px;
+  margin-right: 0.5em;
+}
+
+.btn_share .fa-twitter {
+  vertical-align: middle;
+}
+
+
+/* .youtube img{
+  /* aspect-ratio: 16/9;
+  margin-top: 80px; */
+  /* width: 100%; */
+
+
+/* .youtube iframe {
+  width: 100%;
+  height: 100%;
+} */
+
+.logo-mark {
+  margin: 140px 0;
+  border-radius: 50%;
+  width: 25%;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin-top: 45px;
+}
+
+.imgs img {
+  width: 35%;
+  /* height: 250px; */
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 7px 10px 12px -8px #db8607 ;
+}
